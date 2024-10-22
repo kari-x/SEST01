@@ -21,3 +21,21 @@ git commit -m "This is the description"
 - Check the commit history
 git log
 git log --oneline
+
+
+- This is a test change that will be removed later on.
+
+- Go back to previous commit
+git reset HEAD~1
+
+- Branching
+
+- See all available branches
+git branch -a
+
+- Create a branch
+git branch [branch-name]
+
+- Switch to a different branch
+git checkout [branch-name]
+git switch [branch-name]
