@@ -24,3 +24,24 @@ git log --oneline
 
 
 - This is a test change that will be removed later on.
+
+- Go back to previous commit
+git reset HEAD~1
+
+- Branching
+
+- See all available branches
+git branch -a
+
+- Create a branch
+git branch [branch-name]
+
+- Switch to a different branch
+git checkout [branch-name]
+git switch [branch-name]
+
+- Merge a branch
+git merge [branch-name]
+
+- Delete a branch
+git branch -d [branch-name]
